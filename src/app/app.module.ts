@@ -8,8 +8,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { MetricComponent } from './metric/metric.component';
 import { NodesComponent } from './nodes/nodes.component';
 import { NodesRowComponent } from './nodes-row/nodes-row.component';
-import { NodesDetailComponent } from './nodes-detail/nodes-detail.component';
-import { AlertComponent } from './alert/alert.component';
+
 
 @NgModule({
   declarations: [
@@ -19,12 +18,8 @@ import { AlertComponent } from './alert/alert.component';
     MetricComponent,
     NodesComponent,
     NodesRowComponent,
-    NodesDetailComponent,
-    AlertComponent
   ],
   entryComponents: [
-    NodesDetailComponent,
-    AlertComponent
   ],
   imports: [
     BrowserModule,
